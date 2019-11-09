@@ -1,0 +1,65 @@
+.hide {
+  display: none;
+}
+
+.full {
+  width: 100% !important;
+}
+
+nav {
+  height: 64px;
+}
+
+.table {
+  border-bottom: 1px solid #dee2e6;
+  margin: 20px auto;
+}
+
+.table thead tr {
+  background-color: #fafafa;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+/* Style buttons */
+.btn {
+  background-color: #4CAF50; /* Blue background */
+  border: 2px solid;
+  border-radius: 20px;
+  color: white; /* White text */
+  padding: 12px 16px; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: #fff;
+  color: #4CAF50;
+}
+
+a.btn.editar {
+  background-color: #fff;
+  color: #FFEB3B;
+}
+
+a.btn.editar:hover {
+  background-color: #FFEB3B;
+  color: #fff;
+}
+
+a.btn.deletar {
+  background-color: #fff;
+  color: #FF5722;
+}
+
+a.btn.deletar:hover {
+  background-color: #FF5722;
+  color: #fff;
+}

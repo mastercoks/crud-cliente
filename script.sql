@@ -1,0 +1,16 @@
+  
+CREATE DATABASE crud DEFAULT CHARACTER SET utf8;
+USE crud;
+
+CREATE TABLE `clientes` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `nome` varchar(40) NOT NULL,
+  `idade` tinyint(3) UNSIGNED NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+ALTER TABLE `clientes`
+  ADD PRIMARY KEY (`id`);
+
+ALTER TABLE `clientes`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+COMMIT;
